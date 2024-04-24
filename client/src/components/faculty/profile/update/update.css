@@ -1,0 +1,32 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Khoảng cách giữa các nút và phần trên */
+}
+
+.submit-button {
+    background-color: blue; /* Màu nền của nút Submit */
+    color: white; /* Màu chữ của nút Submit */
+    margin-right: 10px; /* Khoảng cách giữa hai nút */
+    padding: 10px 20px; /* Để nút rộng và dễ nhìn */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi rê chuột vào nút */
+}
+
+.cancel-button {
+    background-color: red; /* Màu nền của nút Cancel */
+    color: white; /* Màu chữ của nút Cancel */
+    padding: 10px 20px; /* Để nút rộng và dễ nhìn */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi rê chuột vào nút */
+}
+
+.container-2 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+}

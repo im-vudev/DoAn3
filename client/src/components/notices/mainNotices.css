@@ -1,0 +1,76 @@
+.notice {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #f3f4f6;
+    cursor: pointer;
+    height: 5.5rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.notice:hover {
+    background-color: rgb(165, 165, 165);
+    color: #fff;
+}
+
+.dot {
+    margin-right: 0.5rem;
+}
+
+.title {
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 15rem;
+}
+
+.content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 25rem;
+    margin-left: 116px;
+}
+
+
+
+
+
+/* ------------------------------- */
+
+.Show .show-notice {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.Show .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Show .bold {
+    font-weight: bold;
+    font-size: 1.25rem;
+
+}
+
+.Show .title {
+    align-self: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.Show .content {
+    max-width: 50rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 7rem;
+}
+
+.Show .sile {
+    font-size: 1.25rem;
+    margin-top: 14px;
+}

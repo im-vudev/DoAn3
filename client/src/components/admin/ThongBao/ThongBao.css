@@ -1,0 +1,77 @@
+/* Thêm CSS tùy chỉnh cho các phần tử trong form */
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+  }
+  
+  /* Thêm CSS cho tiêu đề */
+  .form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Thêm CSS cho các input và textarea */
+  .form-container input[type="date"],
+  .form-container input[type="text"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Đảm bảo rằng padding và border được tính vào kích thước của phần tử */
+  }
+  
+  /* Thêm CSS cho nút Submit và Clear */
+  .form-container button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Thêm CSS cho Spinner */
+  .spinner-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Thêm CSS cho thông báo lỗi */
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  /* Thêm CSS cho icon Engineering */
+  .engineering-icon {
+    font-size: 36px;
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+
+  .submit-button {
+    background-color: blue; /* Màu nền của nút Submit */
+    color: white; /* Màu chữ của nút Submit */
+    margin-right: 10px; /* Khoảng cách giữa hai nút */
+    padding: 10px 20px; /* Để nút rộng và dễ nhìn */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi rê chuột vào nút */
+}
+
+.cancel-button {
+    background-color: red; /* Màu nền của nút Cancel */
+    color: white; /* Màu chữ của nút Cancel */
+    padding: 10px 20px; /* Để nút rộng và dễ nhìn */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi rê chuột vào nút */
+}
+  

@@ -1,0 +1,63 @@
+/* Style for container */
+.adminss .container-1-2 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 187);
+    overflow-y: auto;
+}
+
+/* Style for form */
+.adminss .form {
+    background-color: #f1f3f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style for form title */
+.adminss .form h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for form inputs and labels */
+.adminss .form input,
+.adminss .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.adminss .form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for form buttons */
+.adminss .form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for submit button */
+.adminss .submit-button {
+    background-color: #157ff1;
+    color: white;
+}
+
+/* Style for clear button */
+.adminss .clear-button {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Style for error messages */
+.adminss .error-message {
+    color: red;
+}

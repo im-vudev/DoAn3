@@ -1,0 +1,232 @@
+/* Định dạng toàn bộ container */
+
+.testResult.title-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    max-width: 6rem;
+  }
+
+
+.testResult.select,
+.testResult.search-button {
+    margin-right: 10px; /* Add some right margin between form elements */
+}
+
+  
+  
+.testResult.icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+ 
+
+ 
+.testResult .form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+.testResult .select {
+    width: 224px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+ 
+.testResult .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+ 
+.testResult .faculty-list {
+    margin-top: 20px;
+  }
+  
+ 
+.testResult .error-message {
+    color: #f44336;
+  }
+  
+ 
+.testResult .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+.testResult .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+ 
+.testResult .faculty-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+ 
+.testResult .faculty-data {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: left;
+  }
+  
+
+ 
+.testResult .container-4 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+
+.testResult .container-5 {
+    margin-top: 220px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 139);
+    overflow-y: auto;
+}
+
+
+.testResult .faculty-list {
+    margin-top: 20px;
+    max-height: 400px; /* Điều chỉnh chiều cao tối đa của phần tử chứa bảng */  /* Đặt chiều cao tối đa cho thanh cuộn */
+    max-width: 100%;
+  }
+
+ 
+.testResult .faculty-list table {
+    width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của phần tử chứa */
+  }
+
+ 
+.testResult .faculty-list table th,
+  .faculty-list table td {
+    border-bottom: 1px solid #ddd; /* Thêm đường kẻ dưới cho hàng trong bảng */
+    padding: 12px; /* Increase padding for better spacing */
+    min-width: 120px; /* Set a minimum width for better readability */
+  }
+  
+ 
+.testResult .faculty-list table th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề bảng */
+  }
+  /* Kẻ ô cho số thứ tự */
+ 
+.testResult .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d8d8; /* Thêm đường viền bên phải */
+  }
+
+ 
+.testResult .faculty-list::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên trình duyệt Chrome, Safari */
+  }
+  
+  /* Ẩn thanh cuộn ngang */
+ 
+.testResult .faculty-list {
+    scrollbar-width: none; /* Ẩn thanh cuộn trên trình duyệt Firefox */
+    position: relative;
+  }
+
+ 
+.testResult .add-button-container {
+    position: absolute; /* Đặt vị trí tuyệt đối cho nút "Thêm" bên trong container-4 */
+    top: 10px; /* Đặt vị trí từ phía trên cùng */
+    right: 10px; /* Đặt vị trí từ phía bên phải */
+}
+
+
+
+
+.testResult.container-4 {
+    position: relative; /* Đặt vị trí tương đối cho container-4 */
+}
+
+
+
+
+
+
+  
+  
+
+  
+ 
+
+
+  
+ 
+
+  
+ 
+
+  
+  
+ 
+.testResult .faculty-list {
+    margin-top: 20px;
+  }
+  
+
+  
+ 
+.testResult .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: -210px;
+  }
+  
+ 
+.testResult .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d
+}
+
+.testResult.upload-button {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Không có viền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước đệm */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Không có gạch chân */
+    display: inline-block; /* Hiển thị là một khối cùng hàng */
+    font-size: 16px; /* Cỡ chữ */
+    margin: 4px 2px; /* Khoảng cách với các phần tử xung quanh */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    border-radius: 8px; /* Bo tròn viền */
+  }
+  
+  .testResult .upload-button:hover {
+    background-color: #45a049; /* Màu nền hover */
+  }
+  
+
+

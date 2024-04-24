@@ -1,0 +1,311 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+html {
+  font-family: sans-serif; 
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+}
+
+
+#idbody {
+  margin: 0;
+}
+
+
+
+.trangchu article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+
+.trangchu audio,
+canvas,
+progress,
+video {
+  display: inline-block; 
+  vertical-align: baseline; 
+}
+
+
+.trangchu audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/* 
+//
+// Address `[hidden]` styling not present in IE 8/9/10.
+// Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+// */
+
+.trangchu [hidden],
+template {
+  display: none;
+}
+
+
+.trangchu a:active,
+a:hover {
+  outline: 0;
+}
+
+/* .trangchu .modal-content{
+  margin-top: -45px;
+  margin-left: 55px;
+  margin-right: 68px;
+} */
+
+
+.trangchu abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+
+
+.trangchu b,
+strong {
+  font-weight: bold;
+}
+
+
+
+.trangchu dfn {
+  font-style: italic;
+}
+
+
+
+.trangchu h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+
+.trangchu mark {
+  background: #ff0;
+  color: #000;
+}
+
+
+
+.trangchu small {
+  font-size: 80%;
+}
+
+
+
+.trangchu sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.trangchu sup {
+  top: -0.5em;
+}
+
+.trangchu sub {
+  bottom: -0.25em;
+}
+
+
+
+.trangchu img {
+  border: 0;
+  width: 43px;
+  height: 30px;
+}
+
+
+
+.trangchu svg:not(:root) {
+  overflow: hidden;
+}
+
+
+
+.trangchu figure {
+  margin: 1em 40px;
+}
+
+
+.trangchu hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+
+.trangchu pre {
+  overflow: auto;
+}
+
+
+
+.trangchu code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+
+.trangchu button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; 
+  font: inherit; 
+  margin: 0;
+}
+
+
+
+.trangchu button {
+  overflow: visible;
+}
+
+
+
+.trangchu button,
+select {
+  text-transform: none;
+}
+
+
+
+.trangchu button,
+html input[type="button"], 
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; 
+  cursor: pointer; 
+}
+
+
+
+.trangchu button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+
+
+.trangchu button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+.trangchu input {
+  line-height: normal;
+}
+
+
+
+.trangchu input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; 
+  padding: 0; 
+}
+
+
+
+.trangchu input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+
+.trangchu input[type="search"] {
+  -webkit-appearance: textfield; 
+  box-sizing: content-box; 
+}
+
+
+
+.trangchu input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+
+
+.trangchu fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+
+
+.trangchu legend {
+  border: 0; 
+  padding: 0; 
+}
+
+
+
+.trangchu textarea {
+  overflow: auto;
+}
+
+
+
+.trangchu optgroup {
+  font-weight: bold;
+}
+
+
+.trangchu table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.trangchu td,
+th {
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .trangchu .leftCol.menu-open {
+    display: block;
+}
+
+.trangchu .leftCol {
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+  /* Điều chỉnh vị trí của nội dung khi menu mở trên màn hình di động */
+  .menu-open + .soLienLacSecondCol {
+      margin-bottom: 100px;/* Điều chỉnh giá trị này để thay đổi khoảng cách nội dung và menu */
+      
+  }
+}
+
+
+

@@ -1,0 +1,306 @@
+/* Định dạng toàn bộ container */
+
+.updateMarks .title-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    max-width: 6rem;
+  }
+
+
+.updateMarks .select,
+.updateMarks .search-button {
+    margin-right: 10px; /* Add some right margin between form elements */
+}
+
+  
+  
+.updateMarks .icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+ 
+.updateMarks  .form {
+    margin-bottom: 20px;
+  }
+  
+ 
+.updateMarks  .form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+.updateMarks  .select {
+    width: 224px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+ 
+.updateMarks  .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+ 
+.updateMarks  .faculty-list {
+    margin-top: 20px;
+  }
+  
+ 
+.updateMarks  .error-message {
+    color: #f44336;
+  }
+  
+ 
+.updateMarks  .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+.updateMarks  .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+ 
+.updateMarks  .faculty-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+ 
+.updateMarks  .faculty-data {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: left;
+  }
+  
+
+ 
+.updateMarks  .container-4 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+
+.updateMarks  .container-5 {
+    margin-top: 220px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 139);
+    overflow-y: auto;
+}
+
+
+.updateMarks  .faculty-list {
+    margin-top: 20px;
+    max-height: 400px; /* Điều chỉnh chiều cao tối đa của phần tử chứa bảng */  /* Đặt chiều cao tối đa cho thanh cuộn */
+    max-width: 100%;
+  }
+
+ 
+.updateMarks  .faculty-list table {
+    width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của phần tử chứa */
+  }
+
+ 
+.updateMarks  .faculty-list table th,
+  .faculty-list table td {
+    border-bottom: 1px solid #ddd; /* Thêm đường kẻ dưới cho hàng trong bảng */
+    padding: 12px; /* Increase padding for better spacing */
+    min-width: 120px; /* Set a minimum width for better readability */
+  }
+  
+ 
+.updateMarks  .faculty-list table th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề bảng */
+  }
+  /* Kẻ ô cho số thứ tự */
+ 
+.updateMarks  .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d8d8; /* Thêm đường viền bên phải */
+  }
+
+  .updateMarks  .iput {
+    width: 70px;
+  }
+  
+  /* Ẩn thanh cuộn ngang */
+ 
+.updateMarks  .faculty-list::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên trình duyệt Chrome, Safari */
+  }
+  
+  /* Ẩn thanh cuộn ngang */
+ 
+.updateMarks  .faculty-list {
+    scrollbar-width: none; /* Ẩn thanh cuộn trên trình duyệt Firefox */
+    position: relative;
+  }
+
+ 
+.updateMarks  .add-button-container {
+    position: absolute; /* Đặt vị trí tuyệt đối cho nút "Thêm" bên trong container-4 */
+    top: 10px; /* Đặt vị trí từ phía trên cùng */
+    right: 10px; /* Đặt vị trí từ phía bên phải */
+}
+
+
+.updateMarks .add-button {
+    padding: 10px 25px;
+    background-color: #38c500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.updateMarks .container-4 {
+    position: relative; /* Đặt vị trí tương đối cho container-4 */
+}
+
+
+/* CSS for the delete button */
+
+.updateMarks .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  /* CSS for the container to align the delete button to the right */
+ 
+.updateMarks .delete-button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .updateMarks .title-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    max-width: 6rem;
+  }
+
+
+.updateMarks .select,
+.updateMarks .search-button {
+    margin-right: 10px; /* Add some right margin between form elements */
+}
+
+  
+  
+.updateMarks .icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+ 
+.updateMarks  .form {
+    margin-bottom: 246px;
+  }
+  .updateMarks  .error-message {
+    color: #f44336;
+    position: absolute;
+    top: 195px;
+  }
+  
+ 
+.updateMarks  .form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+.updateMarks  .select {
+    width: 224px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+ 
+.updateMarks  .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+ 
+.updateMarks  .faculty-list {
+    margin-top: 20px;
+  }
+  
+ 
+.updateMarks  .error-message {
+    color: #f44336;
+  }
+  
+ 
+.updateMarks  .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+.updateMarks  .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d
+}
+
+.updateMarks .upload-button {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Không có viền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước đệm */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Không có gạch chân */
+    display: inline-block; /* Hiển thị là một khối cùng hàng */
+    font-size: 16px; /* Cỡ chữ */
+    margin: 4px 2px; /* Khoảng cách với các phần tử xung quanh */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    border-radius: 8px; /* Bo tròn viền */
+  }
+  
+  .updateMarks  .upload-button:hover {
+    background-color: #45a049; /* Màu nền hover */
+  }
+  
+
+

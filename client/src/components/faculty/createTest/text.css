@@ -1,0 +1,63 @@
+/* Style for container */
+.text .container-1-2 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 187);
+    overflow-y: auto;
+}
+
+/* Style for form */
+.text .form {
+    background-color: #f1f3f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style for form title */
+.text .form h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for form inputs and labels */
+.text .form input,
+.text .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.text .form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for form buttons */
+.text .form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for submit button */
+.text .submit-button {
+    background-color: #157ff1;
+    color: white;
+}
+
+/* Style for clear button */
+.text .clear-button {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Style for error messages */
+.text .error-message {
+    color: red;
+}

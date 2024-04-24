@@ -1,0 +1,232 @@
+/* Định dạng toàn bộ container */
+
+.subjectList.title-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    max-width: 6rem;
+  }
+
+
+.subjectList.select,
+.subjectList.search-button {
+    margin-right: 10px; /* Add some right margin between form elements */
+}
+
+  
+  
+.subjectList.icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+ 
+
+ 
+.subjectList .form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+.subjectList .select {
+    width: 224px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+ 
+.subjectList .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+ 
+.subjectList .faculty-list {
+    margin-top: 20px;
+  }
+  
+ 
+.subjectList .error-message {
+    color: #f44336;
+  }
+  
+ 
+.subjectList .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+.subjectList .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+ 
+.subjectList .faculty-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+ 
+.subjectList .faculty-data {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: left;
+  }
+  
+
+ 
+.subjectList .container-4 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+
+.subjectList .container-5 {
+    margin-top: 220px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 139);
+    overflow-y: auto;
+}
+
+
+.subjectList .faculty-list {
+    margin-top: 20px;
+    max-height: 400px; /* Điều chỉnh chiều cao tối đa của phần tử chứa bảng */  /* Đặt chiều cao tối đa cho thanh cuộn */
+    max-width: 100%;
+  }
+
+ 
+.subjectList .faculty-list table {
+    width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của phần tử chứa */
+  }
+
+ 
+.subjectList .faculty-list table th,
+  .faculty-list table td {
+    border-bottom: 1px solid #ddd; /* Thêm đường kẻ dưới cho hàng trong bảng */
+    padding: 12px; /* Increase padding for better spacing */
+    min-width: 120px; /* Set a minimum width for better readability */
+  }
+  
+ 
+.subjectList .faculty-list table th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề bảng */
+  }
+  /* Kẻ ô cho số thứ tự */
+ 
+.subjectList .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d8d8; /* Thêm đường viền bên phải */
+  }
+
+ 
+.subjectList .faculty-list::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên trình duyệt Chrome, Safari */
+  }
+  
+  /* Ẩn thanh cuộn ngang */
+ 
+.subjectList .faculty-list {
+    scrollbar-width: none; /* Ẩn thanh cuộn trên trình duyệt Firefox */
+    position: relative;
+  }
+
+ 
+.subjectList .add-button-container {
+    position: absolute; /* Đặt vị trí tuyệt đối cho nút "Thêm" bên trong container-4 */
+    top: 10px; /* Đặt vị trí từ phía trên cùng */
+    right: 10px; /* Đặt vị trí từ phía bên phải */
+}
+
+
+
+
+.subjectList.container-4 {
+    position: relative; /* Đặt vị trí tương đối cho container-4 */
+}
+
+
+
+
+
+
+  
+  
+
+  
+ 
+
+
+  
+ 
+
+  
+ 
+
+  
+  
+ 
+.subjectList .faculty-list {
+    margin-top: 20px;
+  }
+  
+
+  
+ 
+.subjectList .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: -210px;
+  }
+  
+ 
+.subjectList .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d
+}
+
+.subjectList.upload-button {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Không có viền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước đệm */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Không có gạch chân */
+    display: inline-block; /* Hiển thị là một khối cùng hàng */
+    font-size: 16px; /* Cỡ chữ */
+    margin: 4px 2px; /* Khoảng cách với các phần tử xung quanh */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    border-radius: 8px; /* Bo tròn viền */
+  }
+  
+  .subjectList .upload-button:hover {
+    background-color: #45a049; /* Màu nền hover */
+  }
+  
+
+

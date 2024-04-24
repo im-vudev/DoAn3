@@ -1,0 +1,285 @@
+/* Định dạng toàn bộ container */
+
+.departments.title-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    max-width: 6rem;
+  }
+
+
+.departments.select,
+.departments.search-button {
+    margin-right: 10px; /* Add some right margin between form elements */
+}
+
+  
+  
+.departments.icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+ 
+.departments .form {
+    margin-bottom: 20px;
+  }
+  
+ 
+.departments .form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+.departments .select {
+    width: 224px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+ 
+.departments .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+ 
+.departments .faculty-list {
+    margin-top: 20px;
+  }
+  
+ 
+.departments .error-message {
+    color: #f44336;
+  }
+  
+ 
+.departments .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+.departments .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+ 
+.departments .faculty-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+ 
+.departments .faculty-data {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: left;
+  }
+  
+
+ 
+.departments .container-4 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+
+.departments .container-5 {
+    margin-top: 104px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 139);
+    overflow-y: auto;
+}
+
+
+.departments .faculty-list {
+    margin-top: 20px;
+    max-height: 400px; /* Điều chỉnh chiều cao tối đa của phần tử chứa bảng */  /* Đặt chiều cao tối đa cho thanh cuộn */
+    max-width: 100%;
+  }
+
+ 
+.departments .faculty-list table {
+    width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của phần tử chứa */
+  }
+
+ 
+.departments .faculty-list table th,
+ 
+  .faculty-list table td {
+    border-bottom: 1px solid #ddd; /* Thêm đường kẻ dưới cho hàng trong bảng */
+    padding: 12px; /* Increase padding for better spacing */
+    min-width: 120px; /* Set a minimum width for better readability */
+  }
+  
+ 
+.departments .faculty-list table th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề bảng */
+  }
+  /* Kẻ ô cho số thứ tự */
+ 
+.departments .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d8d8; /* Thêm đường viền bên phải */
+  }
+  
+  /* Ẩn thanh cuộn ngang */
+ 
+.departments .faculty-list::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên trình duyệt Chrome, Safari */
+  }
+  
+  /* Ẩn thanh cuộn ngang */
+ 
+.departments .faculty-list {
+    scrollbar-width: none; /* Ẩn thanh cuộn trên trình duyệt Firefox */
+    position: relative;
+  }
+
+ 
+.departments .add-button-container {
+    position: absolute; /* Đặt vị trí tuyệt đối cho nút "Thêm" bên trong container-4 */
+    top: 10px; /* Đặt vị trí từ phía trên cùng */
+    right: 10px; /* Đặt vị trí từ phía bên phải */
+}
+
+
+.departments.add-button {
+    padding: 10px 25px;
+    background-color: #38c500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.departments.container-4 {
+    position: relative; /* Đặt vị trí tương đối cho container-4 */
+}
+
+
+/* CSS for the delete button */
+
+.departments.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  /* CSS for the container to align the delete button to the right */
+ 
+.departments.delete-button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .departments.title-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    max-width: 6rem;
+  }
+
+
+.departments.select,
+.departments.search-button {
+    margin-right: 10px; /* Add some right margin between form elements */
+}
+
+  
+  
+.departments.icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+ 
+.departments .form {
+    margin-bottom: 111px;
+  }
+  .departments .error-message {
+    color: #f44336;
+    position: absolute;
+    top: 66px;
+  }
+  
+ 
+.departments .form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+ 
+.departments .select {
+    width: 224px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+ 
+.departments .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+  
+ 
+.departments .faculty-list {
+    margin-top: 20px;
+  }
+  
+ 
+.departments .error-message {
+    color: #f44336;
+  }
+  
+ 
+.departments .faculty-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+.departments .serial-number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    border-right: 2px solid #e0d
+}
+  
+
+
